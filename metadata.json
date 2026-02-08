@@ -1,5 +1,5 @@
 {
-  "name": "Arturo: The Meat Sommelier",
+  "name": "Arturo: Sommelier de carnes",
   "description": "A digital avatar for high-end butcher shops that welcomes clients and provides expert advice on meat cuts, marbling, and cooking techniques using Gemini Live API.",
   "requestFramePermissions": [
     "microphone"

@@ -1,18 +1,55 @@
 
 @keyframes fade-in {
-  from { opacity: 0; transform: translateY(10px); }
+  from { opacity: 0; transform: translateY(20px); }
   to { opacity: 1; transform: translateY(0); }
 }
 
 @keyframes fade-in-up {
-  from { opacity: 0; transform: translateY(30px); }
+  from { opacity: 0; transform: translateY(40px); }
   to { opacity: 1; transform: translateY(0); }
 }
 
+@keyframes breathing {
+  0%, 100% { transform: scale(1) translateY(0); }
+  50% { transform: scale(1.005) translateY(-3px); }
+}
+
+@keyframes flicker {
+  0%, 100% { filter: brightness(1) contrast(1); }
+  33% { filter: brightness(1.08) contrast(1.03); }
+  66% { filter: brightness(0.96) contrast(0.97); }
+}
+
+@keyframes camera-sway {
+  0%, 100% { transform: rotate(0deg) translate(0, 0); }
+  25% { transform: rotate(0.1deg) translate(2px, 1px); }
+  75% { transform: rotate(-0.1deg) translate(-2px, -1px); }
+}
+
 .animate-fade-in {
-  animation: fade-in 1s ease-out forwards;
+  animation: fade-in 1.5s cubic-bezier(0.2, 0, 0.2, 1) forwards;
 }
 
 .animate-fade-in-up {
-  animation: fade-in-up 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  animation: fade-in-up 1.2s cubic-bezier(0.2, 0, 0.2, 1) forwards;
+}
+
+.animate-breathing {
+  animation: breathing 7s ease-in-out infinite;
+}
+
+.animate-flicker {
+  animation: flicker 5s ease-in-out infinite;
+}
+
+.animate-camera-sway {
+  animation: camera-sway 10s ease-in-out infinite;
+}
+
+.serif {
+  font-family: 'Playfair Display', serif;
+}
+
+.perspective-1000 {
+  perspective: 1000px;
 }
