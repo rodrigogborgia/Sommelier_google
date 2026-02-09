@@ -1,7 +1,8 @@
 {
-  "name": "Arturo: Sommelier de carnes",
-  "description": "A digital avatar for high-end butcher shops that welcomes clients and provides expert advice on meat cuts, marbling, and cooking techniques using Gemini Live API.",
+  "name": "Arturo: Sommelier de carnes (Powered by Anam)",
+  "description": "A digital avatar for high-end butcher shops using Anam.ai Richard Avatar and Gemini for intelligence.",
   "requestFramePermissions": [
-    "microphone"
+    "microphone",
+    "camera"
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "name": "arturo:-sommelier-de-carnes",
+  "name": "arturo:-sommelier-de-carnes-(powered-by-anam)",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@google/genai": "^1.40.0",
+    "@anam-ai/js-sdk": "^0.0.12",
     "react": "^19.2.4",
     "react-dom": "^19.2.4"
   },
