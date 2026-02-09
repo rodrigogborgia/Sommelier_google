@@ -1,6 +1,6 @@
 {
-  "name": "Arturo: Sommelier de carnes (Powered by Anam)",
-  "description": "A digital avatar for high-end butcher shops using Anam.ai Richard Avatar and Gemini for intelligence.",
+  "name": "Arturo: Sommelier de carnes (Powered by HeyGen)",
+  "description": "Avatar digital de alta gama para carnicerías boutique utilizando HeyGen Streaming Avatar y Gemini Pro.",
   "requestFramePermissions": [
     "microphone",
     "camera"
